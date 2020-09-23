@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  Font size: 16px;
+  background-color: #f0f0f0;
+}
+
+.all-container {
+  margin-top: -2em;
+}
+
+.first-container {
+  position: absolute;
+  width: 40em;
+  height: 30em;
+  background-color: #FFFFFF;
+  margin-left: 25em;
+  margin-top: 5em;
+  border-radius: .5em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: left;
+  padding-left: 3em;
+}
+
+h2 {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  color: #2BB3B1;
+  font-weight: 600;
+  opacity: .8;
+}
+
+h3 {
+  color: #BFDF32;
+  font-weight: 600;
+  opacity: .8;
+}
+
+h4 {
+  padding-top: 1em;
+  font-weight: 400;
+  opacity: .5;
+}
+
+.second-container {
+  position: absolute;
+  width: 19em;
+  height: 13em;
+  background-color: #2BB3B1;
+  margin-left: 25em;
+  margin-top: 20em;
+  border-bottom-left-radius: 0.5em;
+  text-align: left;
+  padding-left: 3em;
+  padding-top: 2em;
+  color: white;
+  line-height: 2em;
+}
+
+.third-container {
+  position: absolute;
+  width: 19em;
+  height: 13.2em;
+  background-color: #4ABEBD;
+  margin-left: 46em;
+  margin-top: 20em;
+  border-bottom-right-radius: 0.5em;
+  padding-left: 3em;
+  color: white;
+  padding-top: 1.8em;
+  text-align: left;
+}
+
+.why-us {
+  font-size: 1.2em;
+  line-height: 1em;
+  padding-bottom: 1em;
+  font-weight: 500;
+}
+
+.info-2 {
+  font-size: .7em;
+  line-height: 1.5;
+  opacity: 0.6;
+  font-weight: 300;
+}
+
+.tittle {
+  font-weight: 500;
+  font-size: .9em;
+  padding-bottom: 1.3em;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+h1>span {
+  font-size: 0.4em;
+  font-weight: 400;
+  opacity: .5;
+}
+
+.info {
+  font-size: .9em;
+  font-weight: 500;
+}
+
+.button {
+  margin-top: 1.5em;
+  width: 15em;
+  height: 2.5em;
+  background-color: #BFDF32;
+  position: absolute;
+  border: 1px solid #BFDF32;
+  ;
+  text-align: center;
+  border-radius: .3em;
+  font-size: .9em;
+}
+
+.footer {
+  color: black;
+  position: absolute;
+  font-family: 'Karla', sans-serif;
+  font-size: .8em;
+  opacity: .8;
+  transform: rotate(270deg);
+  left: -3em;
+  top: 25em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ED2C49;
+}
